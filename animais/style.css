@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+    body {
+        background-image: url(/animais/imagens-animais/background.png);
+    }
+
+    .main{
+        border-top: 1px solid #ced4b2;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .imagem-header {
+        height: 90px;
+        padding-top: 5px;
+    }
+
+    .cabecalho-navegacao{
+        display: flex;
+        gap: 32px;
+    }
+
+    .item-header {
+        color: black;
+        background-color: #e5fafc;
+        padding: 10px;
+        border-radius: 30px;
+        transition: 0.5s;
+    }
+
+    #animais {
+        background-color: #eaeccd;
+    }
+
+    .item-header:hover {
+        background-color: #eaeccd;
+    }
+
+    .main-titulo {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .secao {
+        background-color: #eaeccd;
+        height: 100%;
+        border-radius: 20px;
+        margin: 30px 20%;
+        border: 2px solid black;
+    }
+
+    .tipo-de-animais {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+        background-color: #cda47a;
+        padding: 7px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .conteudo-secao {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .escrita {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 500px;
+        font-size: large;
+    }
+
+    .texto {
+        background-color: #f8edd0;
+        border-radius: 20px;
+        margin: 20px 0;
+        border: 2px solid black; 
+        padding: 0 0 5px ;
+    }
+
+    .titulo {
+        background-color: #cda47a;
+        padding: 7px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .paragrafo {
+        margin-top: 7px;
+        font-size: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .imagens {
+        display: flex;
+    }
+
+
+    .img {
+        margin: 20px;
+        height: 230px;
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 300px;
+    }
+
+    .footer {
+        padding: 30px;
+        border-top: 1px solid #ced4b2;
+    }
+
+    .contato {
+        background-color: #eaeccd;
+        min-height: 120px;
+        width: 400px;
+        border-radius: 20px;
+        margin: 0 0 5px 20px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .paragrafo-footer {
+        padding-left: 6px;
+    }
+
+    .footer-image{
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
